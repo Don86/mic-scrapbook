@@ -14,8 +14,11 @@ from sklearn.feature_extraction.image import extract_patches_2d
 from sklearn.feature_extraction.image import PatchExtractor
 from sklearn.feature_extraction.image import reconstruct_from_patches_2d
 
-"""Various methods that are frequently used
+"""Various methods that are frequently used.
 """
+
+def note_to_self():
+    print("Clean this up; partition between utility functions for supervised, unsupervised, or agnostic methods")
 
 
 def get_feat_values(gene_values, pathstr):
